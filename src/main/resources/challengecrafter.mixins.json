@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.scotland1912.challengecrafter.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

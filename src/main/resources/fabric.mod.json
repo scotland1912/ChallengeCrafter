@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "challengecrafter",
+	"version": "${version}",
+	"name": "Challenge Crafter",
+	"description": "Enjoy customized challenges and try to beat them!",
+	"authors": [
+		"scotland1912"
+	],
+	"contact": {
+		"sources": "https://github.com/scotland1912/ChallengeCrafter"
+	},
+	"license": "MIT",
+	"icon": "assets/challengecrafter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.scotland1912.challengecrafter.ChallengeCrafter"
+		],
+		"fabric-datagen": [
+			"com.scotland1912.challengecrafter.ChallengeCrafterDataGenerator"
+		]
+	},
+	"mixins": [
+		"challengecrafter.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
